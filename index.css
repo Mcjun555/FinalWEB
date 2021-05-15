@@ -1,0 +1,451 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sidenav{
+	height: 100%;
+	width: 20%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #0909FF;
+	overflow-x: hidden;
+	padding: 10px 10px 10px 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 25px;
+}	
+	
+.sidenav a{
+	padding: 20px 5px 20px 5px;
+	text-decoration: none;
+	color: aliceblue;
+	display: block;
+}
+	
+.sidenav a:hover{
+	color: black;
+	background-color: powderblue;
+	padding: 20px 5px 5px 20px;
+	font-display: block;
+	border-radius: 15px;
+}
+
+.sidenav img{
+	width: 320px;
+	height: auto;
+}
+
+.next{
+	margin-left: 20%;
+	margin-top: 0;
+}	
+
+.hometab{
+	margin-left: 20%;
+}
+
+.body{
+	background-color: #D6F2FC;
+}
+	
+.paa{
+	margin-left: 20%;
+}
+
+ 	/*index body*/
+.hol{
+	margin-left: 22%;
+	margin-top: 25px;
+}
+
+.mis{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	width: 100%;
+	background-color: #7DC1D7;
+	float: left;
+	border-radius: 15px;
+}
+
+.vis{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	width: 100%;
+	background-color: #7DC1D7;
+	float: left;
+	border-radius: 15px;
+}
+
+.mis1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	width: 100%;
+	float: left;
+}
+
+.vis1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	width: 100%;
+	float: left;
+}
+
+.hih{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	width: 100%;
+	float: left;
+	background-color: #7DC1D7;
+	border-radius: 15px;
+}
+.uno{
+	width: 40%;
+	float: left;
+	padding-left: 10%;
+}
+
+.uno img{
+	padding: 15px;
+	width: 400px;
+	height: auto;
+}
+
+.def1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	width: 35%;
+	float: left;
+	padding: 30px;
+}
+
+.def2{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	width: 35%;
+	float: left;
+	padding: 30px;
+}
+
+.uno img{
+	float: left;
+}
+
+
+
+	/*CSS for enroll.html*/
+.enrol{
+	background-color: #D6F2FC;
+}
+
+.title{
+	font-size: 45px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.sub{
+	background-color: #7DC1D7;
+	font-size: 25px;
+	border-radius: 15px;
+}
+
+.porm{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	padding-left: 50px;
+	margin-left: 20%;
+}
+
+	
+
+	/*CSS for photos.html*/
+.ed{
+	width: 1200px;
+	font-size: 25px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background-color: #7DC1D7;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.gar{
+	background-color: #D6F2FC;
+}
+
+.pix{
+	width: 100;
+	height: auto;
+}
+	
+.pix:hover{
+	border-radius: 50px;
+}
+
+
+	/*CSS for courses.html*/
+.kurso{
+	margin-left: 20%;
+}
+
+.cors{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	margin-left: 20%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.kursoko{
+	margin-left: 20%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+}
+
+.kursoko h1{
+	background-color: #7DC1D7;
+	border-radius: 15px;
+}
+
+.kors{
+	background-color: #D6F2FC;
+}
+
+
+	/*CSS for activities.html*/
+.mainbg{
+	margin-left: 20%;
+}
+
+.acts{
+	margin-left: 20%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+}
+
+.acts h1{
+	background-color: #7DC1D7;
+	border-radius: 15px;
+}
+
+.aktib{
+	background-color: #D6F2FC;
+}
+
+	
+	/*CSS for about.html*/
+.abawt{
+	background-color: #D6F2FC;
+}
+
+.last{
+	margin-left: 20%;
+}
+
+.info{
+	margin-left: 20%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+}
+	
+
+	/*Responsive layout*/
+
+@media only screen and (max-width:320px) {
+  	.sidenav img{
+    	width: 50px;
+		height: auto;
+ 	 }
+	.sidenav a{
+		font-size: 10px;
+	}
+	.sidenav{
+		position: relative;
+		width: 100%;
+	}
+	.acts h1{
+		font-size: 15px;
+	}
+	.acts{
+		font-size: 10px;
+	}
+	.porm td{
+		font-size: 10px;
+	}
+	.kors{
+		margin-left: 0%;
+	}
+	.info{
+		font-size: 15px;
+	}
+}
+	
+@media only screen and (max-width:760px) {
+  	.sidenav img{
+		width: 130px;
+		height: auto;
+	}
+	.sidenav a{
+		font-size: 15px;
+	}
+	.ed{
+		width: 100%;
+		font-size: 10px;
+	}
+	.acts h1{
+		font-size: 20px;
+	}
+	.acts{
+		font-size: 15px;
+	}
+	.porm td.title{
+		font-size: 25px;
+	}
+	.porm td{
+		font-size: 15px;
+	}
+	.kursoko h1{
+		width: 100%;
+		font-size: 15px;
+	}
+	.info{
+		font-size: 15px;
+	}
+	.uno img{
+		width: 100%;
+		height: auto;
+	}
+	.mis h1{
+		font-size: 15px;
+	}
+	.vis h1{
+		font-size: 15px;
+	}
+	.hih h1{
+		font-size: 15px;
+	}
+	.mis p{
+		font-size: 10px;
+	}
+	.vis p{
+		font-size: 10px;
+	}
+	.uno{
+		width: 80%;
+	}
+	.def1{
+		width: 80%;
+	}
+
+}
+	
+@media only screen and (max-width:1080px) {
+	.sidenav img{
+		width: 200px;
+		height: auto;
+	}
+	.sidenav{
+		font-size: 15px;
+	}
+	.next img{
+		width: 100%;
+	}
+	.ed{
+		width: 100%;
+		font-size: 20px;
+	}
+	.mainbg img{
+		width: 100%;
+	}
+	.acts h1{
+		font-size: 25px;
+	}
+	.porm td.sub{
+		width: 100%;
+	}
+	.kurso img{
+		width: 100%;
+	}
+	.kursoko h1{
+		width: 100%;
+		font-size: 25px;
+	}
+	.cors{
+		font-size: 15px;
+	}
+	.last img{
+		width: 100%;
+	}
+	.info h1{
+		width: 100%;
+		font-size: 20px;
+	}
+	.uno img{
+		width: 100%;
+		height: auto;
+	}
+	.mis h1{
+		font-size: 20px;
+	}
+	.vis h1{
+		font-size: 20px;
+	}
+	.hih h1{
+		font-size: 20px;
+	}
+	.mis p{
+		font-size: 15px;
+	}
+	.vis p{
+		font-size: 15px;
+	}
+	.uno{
+		width: 80%;
+	}
+	.def1{
+		width: 80%;
+	}
+
+}
+
+@media only screen and (max-width:1500px) {
+	.sidenav img{
+		width: 100%;
+		height: auto;
+	}
+	.sidenav{
+		font-size: 25px;
+	}
+	.next img{
+		width: 100%;
+	}
+	.ed{
+		width: 100%;
+	}
+	.mainbg img{
+		width: 100%;
+	}
+	.kurso img{
+		width: 100%;
+	}
+	.kursoko h1{
+		width: 100%;
+	}
+	.last img{
+		width: 100%;
+	}
+	.info h1{
+		width: 100%;
+		
+	
+	}
+	.uno img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width:1500px) {
+	.ed{
+		width: 100%;
+	}
+
+}
